@@ -65,6 +65,8 @@ city <- c("Beijing", "Lagos", "París", "Río de Janeiro", "San Juan", "Toronto"
 
 names(temp) <- city
 
+temp
+
 # 4. Utilice los operadores [ y : para acceder a la temperatura de las
 # tres primeras ciudades de la lista.
 temp[1:3]
@@ -81,6 +83,7 @@ seq(1, 100, 2)
 # en incrementos de 4/7: 6, 6 + 4/7, 6 + 8/7, y así sucesivamente.
 # ¿Cuántos números tiene la lista? Sugerencia: use seq y length.
 lista <- seq(6, 55, 4 / 7)
+lista
 length(lista)
 
 # 9. ¿Cuál es la clase del siguiente objeto a <- seq(1, 10, 0.5)?
@@ -97,7 +100,7 @@ class(1L)
 x <- c("1", "3", "5")
 # y oblíguelo a obtener enteros.
 x <- as.integer(x)
-
+x
 
 # 1. Utilice el operador $ para acceder a los datos
 # del tamaño de la población y almacenarlos como el
